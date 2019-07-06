@@ -13,7 +13,7 @@ def remove_strawberry(contacts)
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
 #  }
-binding.binding.pry
+binding.pry
 ["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
 
 

@@ -14,7 +14,8 @@ def remove_strawberry(contacts)
   #   }
 #  }
 binding.pry
-["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
+contacts.each do |people, elements|
+  
 
 
 end

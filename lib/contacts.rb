@@ -19,5 +19,5 @@ contacts.each do |people, elements|
   if people == "Freddy Mercury"
   elements[:favorite_ice_cream_flavors]
 end
-
+end
 end

@@ -1,6 +1,6 @@
 require 'pry'
 
-def remove_strawberry
+def remove_strawberry()
    #contacts = {
   #   "Jon Snow" => {
   #     name: "Jon",

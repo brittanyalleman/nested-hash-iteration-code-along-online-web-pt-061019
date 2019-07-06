@@ -17,7 +17,4 @@ def remove_strawberry
 ["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
 
 
-remove_strawberry.each do |person, contact_hash|
-  binding.pry
-
 end

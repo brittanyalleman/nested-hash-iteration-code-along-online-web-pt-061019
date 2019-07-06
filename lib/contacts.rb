@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def remove_strawberry(contacts)
    #contacts = {
@@ -15,7 +15,7 @@ def remove_strawberry(contacts)
 #  }
 
 contacts.each do |people, elements|
-  binding.pry
+
   if people == "Freddy Mercury"
   elements[:favorite_ice_cream_flavors]
 end

@@ -17,7 +17,7 @@ def remove_strawberry(contacts)
 contacts.each do |people, elements|
 
   if people == "Freddy Mercury"
-  elements[:favorite_ice_cream_flavors]
+  elements[:favorite_ice_cream_flavors].shift
 end
 end
 end
